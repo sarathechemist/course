@@ -1,0 +1,50 @@
+.item1 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+translate: -25px;
+
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition-property: width;
+    transition-duration: 2s;
+transition-timing-function: ease;
+transform: rotate(25deg);
+transform: scale(2 ,3);
+transform: skew(20deg);
+
+}
+.item3 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+animation-name: animation1;
+animation-duration: 2s;
+animation-direction :reverse;
+
+}
+
+@keyframes animation1 {
+    from {background-color: blueviolet;} to {background-color: black;}
+}
+.item4 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+
+
+}
+
+[class^="item"]:hover {
+ width: 200px;
+}

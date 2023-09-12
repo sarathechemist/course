@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  background-color: aquamarine;
+  margin: 5vw;
+  height: 5vh;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+.item1 {
+  border: 2px solid black;
+  width: 100px;
+  height: 105px;
+  text-align: center;
+}
+
+.item2 {
+  border: 2px solid black;
+}
+.item3 {
+  border: 2px solid black;
+}
+.item4 {
+  border: 2px solid black;
+}
